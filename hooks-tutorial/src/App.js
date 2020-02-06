@@ -10,7 +10,7 @@ import Average from './Average.js'
 const App = () => {
     const [visible, setVisible] = useState(false);
     return (
-/*        <div>
+        <div>
             <button onClick={() => {
                 setVisible(!visible)
             }}>
@@ -20,8 +20,8 @@ const App = () => {
             {visible && <Info/>}
             <ContextSample/>
             <Counter2 />
-        </div>*/
-        <Average />
+        </div>
+       /* <Average />*/
     );
 }
 
